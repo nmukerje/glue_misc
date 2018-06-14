@@ -1,3 +1,6 @@
+from itertools import izip_longest
+import boto3
+
 region='us-east-1'
 
 def add_partitions(bucket,prefix,catalogId,databaseName,tableName):
