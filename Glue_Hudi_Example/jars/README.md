@@ -1,6 +1,6 @@
 This example shows a sample AWS Glue job that creates an Apache Hudi table in the AWS Glue Catalog.
 
-Steps:
+## Steps:
 
 1. Add the jars in the Jars directory to the 'Dependent jars path' for the Glue job. Steps to build the Hudi jar is also included.
 2. Create a New AWS Glue Job.
